@@ -10,8 +10,7 @@ public class UuidController {
 
     @GetMapping("/uuid")
     public String getUuid() {
-        // Return the name of the HTML template
         String uuid = "s2795419";
-        return "<html><body><h1>"+ uuid+ "</h1></body></html>";
+        return "<html><body><h1>" + uuid + "</h1></body></html>";
     }
 }
